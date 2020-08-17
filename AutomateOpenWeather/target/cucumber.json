@@ -1,0 +1,1338 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:35:56.595Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8557000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "1 Search the forcast with the city name",
+        "description": "",
+        "id": "open-weather-map-with-city;1-search-the-forcast-with-the-city-name;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1110000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 712000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user searches with Dundee",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dundee",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Weather forcaste is displayed for the Dundee on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dundee",
+                  "offset": 42
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theWeatherForcasteIsDsplayedWithAllDaysOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:36:07.180Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6152000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "1 Search the forcast with the city name",
+        "description": "",
+        "id": "open-weather-map-with-city;1-search-the-forcast-with-the-city-name;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 734000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 884000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user searches with Edinburgh",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Edinburgh",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Weather forcaste is displayed for the Edinburgh on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Edinburgh",
+                  "offset": 42
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theWeatherForcasteIsDsplayedWithAllDaysOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:36:14.992Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6971000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "1 Search the forcast with the city name",
+        "description": "",
+        "id": "open-weather-map-with-city;1-search-the-forcast-with-the-city-name;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 701000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 725000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user searches with Glasgow",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Glasgow",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Weather forcaste is displayed for the Glasgow on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Glasgow",
+                  "offset": 42
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theWeatherForcasteIsDsplayedWithAllDaysOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:36:23.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6195000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "1 Search the forcast with the city name",
+        "description": "",
+        "id": "open-weather-map-with-city;1-search-the-forcast-with-the-city-name;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 661000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 588000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user searches with Perth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perth",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Weather forcaste is displayed for the Perth on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perth",
+                  "offset": 42
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theWeatherForcasteIsDsplayedWithAllDaysOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:36:30.914Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6217000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "1 Search the forcast with the city name",
+        "description": "",
+        "id": "open-weather-map-with-city;1-search-the-forcast-with-the-city-name;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 828000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user searches with Stirling",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Stirling",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the Weather forcaste is displayed for the Stirling on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Stirling",
+                  "offset": 42
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theWeatherForcasteIsDsplayedWithAllDaysOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:36:38.692Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6235000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "2 Search to get given no of days forcast for a given location",
+        "description": "",
+        "id": "open-weather-map-with-city;2-search-to-get-given-no-of-days-forcast-for-a-given-location;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 712000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user searches with Dundee",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dundee",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user sees 5 days report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserClickOnGivenCity_name(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:36:46.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6238000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "2 Search to get given no of days forcast for a given location",
+        "description": "",
+        "id": "open-weather-map-with-city;2-search-to-get-given-no-of-days-forcast-for-a-given-location;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 715000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 917000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user searches with Edinburgh",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Edinburgh",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user sees 5 days report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserClickOnGivenCity_name(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:36:54.616Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6143000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "2 Search to get given no of days forcast for a given location",
+        "description": "",
+        "id": "open-weather-map-with-city;2-search-to-get-given-no-of-days-forcast-for-a-given-location;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 695000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 812000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user searches with Glasgow",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Glasgow",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user sees 5 days report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserClickOnGivenCity_name(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:37:02.464Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6298000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "2 Search to get given no of days forcast for a given location",
+        "description": "",
+        "id": "open-weather-map-with-city;2-search-to-get-given-no-of-days-forcast-for-a-given-location;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 736000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 735000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user searches with Perth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perth",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user sees 5 days report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserClickOnGivenCity_name(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:37:10.437Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7116000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "2 Search to get given no of days forcast for a given location",
+        "description": "",
+        "id": "open-weather-map-with-city;2-search-to-get-given-no-of-days-forcast-for-a-given-location;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1124000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 819000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user searches with Stirling",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Stirling",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user sees 5 days report",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 14
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserClickOnGivenCity_name(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:37:19.700Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6064000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "3 search with incorrect cityname",
+        "description": "",
+        "id": "open-weather-map-with-city;3-search-with-incorrect-cityname",
+        "after": [
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 561000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user searches with invalid",
+            "match": {
+              "arguments": [
+                {
+                  "val": "invalid",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the error message \"Error retrieving the forecast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Error retrieving the forecast",
+                  "offset": 19
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theErrorMessage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:37:27.040Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6413000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "4 select a day for summary forcast",
+        "description": "",
+        "id": "open-weather-map-with-city;4-select-a-day-for-summary-forcast",
+        "after": [
+          {
+            "result": {
+              "duration": 698000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 832000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the user searches with Edinburgh",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Edinburgh",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3589000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user click on EachDay for the sumary forcast",
+            "match": {
+              "location": "StepImplementation.Stepdefs.theUserClickOnEachDayForTheSumaryForcast()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:37:38.578Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6404000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "5 Select a day twice temperature summary for the whole day should be hidden",
+        "description": "",
+        "id": "open-weather-map-with-city;5-select-a-day-twice-temperature-summary-for-the-whole-day-should-be-hidden",
+        "after": [
+          {
+            "result": {
+              "duration": 1174000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 689000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "the user searches with Perth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perth",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "the user clicks to hide the summary info",
+            "match": {
+              "location": "StepImplementation.Stepdefs.theUserClicksToHideTheSummaryInfo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the weather forcast of whole day is not displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.theWeatherForcastOfWholeDayIsNotDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Launch the weather report site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the home page of opens Weather map is displayed",
+            "match": {
+              "location": "StepImplementation.Stepdefs.thehomepageofopensWeathermapisdiplayed()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-17T15:37:47.117Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6183000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepImplementation.Stepdefs.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "6. Check if the temperature is rounded off",
+        "description": "",
+        "id": "open-weather-map-with-city;6.-check-if-the-temperature-is-rounded-off",
+        "after": [
+          {
+            "result": {
+              "duration": 679000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "utilities.driverfactory.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 604000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user searches with Perth",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Perth",
+                  "offset": 23
+                }
+              ],
+              "location": "StepImplementation.Stepdefs.theUserSearchesWith(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "temperature values should be always displayed as roundedoff",
+            "match": {
+              "location": "StepImplementation.Stepdefs.temperatureValuesShouldBeAlwaysDisplayedAsRoundedoff()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Temp1"
+          }
+        ]
+      }
+    ],
+    "name": "Open Weather map with city",
+    "description": "",
+    "id": "open-weather-map-with-city",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/features/OpenWeatherMap.feature",
+    "tags": [
+      {
+        "name": "@Temp1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

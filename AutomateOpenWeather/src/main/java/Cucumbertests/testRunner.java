@@ -8,10 +8,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features={"src/main/resources/OpenWeatherMap.feature"},
-        glue={"src/main/java/StepImplementation/Stepdefs.java", "src/main/java/utilities/driverfactory.java"},
+        features={"src/main/resources/features/"},
+        glue={"StepImplementation","utilities"},
         monochrome = true,
-        plugin = {"pretty","html:target/HTMLReport", "json:target/cucumber.json"}
+        tags = "@Temp1",
+        plugin = {"pretty","html:target/htmlreport.html", "json:target/cucumber.json"}
 )
 public class testRunner {
 
